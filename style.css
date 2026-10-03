@@ -1,3 +1,10 @@
+/*
+Created on 03/10/2026
+Last modified 03/10/2026
+@author Igor Smorodinskii
+Stylesheet for the Tech News web page
+*/
+
 /* style.css - this file controls how the page looks */
 
 /* The whole page: background colour, text colour and font */
@@ -35,6 +42,8 @@ article {
 /* Pictures inside articles */
 figure img {
     width: 300px;
+    height: 200px;                  /* same height for every article picture */
+    object-fit: cover;              /* crop instead of stretching */
 }
 
 /* Links change colour when the mouse is over them */
@@ -45,6 +54,8 @@ a:hover {
 /* GALLERY: pictures side by side */
 .gallery img {
     width: 180px;
+    height: 130px;                  /* same height for every picture */
+    object-fit: cover;              /* crop the picture to fit, without stretching */
     margin: 5px;
     border: 2px solid #cccccc;
 }
