@@ -1,0 +1,63 @@
+/* style.css - this file controls how the page looks */
+
+/* The whole page: background colour, text colour and font */
+body {
+    background-color: #f0f4f8;      /* colour 1: light grey-blue background */
+    color: #222222;                 /* colour 2: dark grey text */
+    font-family: Arial, sans-serif; /* font for the whole page */
+    margin: 20px;
+}
+
+/* Main title */
+h1 {
+    color: #1e3a8a;                 /* colour 3: dark blue */
+    text-align: center;             /* puts the title in the middle */
+}
+
+/* DIV box for the intro: border, text-align, font-size, font-family */
+.intro {
+    border: 3px solid #1e3a8a;      /* blue frame around the box */
+    text-align: center;             /* text in the middle */
+    font-size: 20px;                /* bigger text */
+    font-family: Georgia, serif;    /* different font */
+    padding: 10px;
+}
+
+/* Each news article is a white card */
+article {
+    background-color: white;
+    border-radius: 10px;            /* effect 1: rounded corners */
+    box-shadow: 0 2px 6px #999999;  /* effect 2: shadow under the card */
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Pictures inside articles */
+figure img {
+    width: 300px;
+}
+
+/* Links change colour when the mouse is over them */
+a:hover {
+    color: #dc2626;                 /* effect 3: red on hover */
+}
+
+/* GALLERY: pictures side by side */
+.gallery img {
+    width: 180px;
+    margin: 5px;
+    border: 2px solid #cccccc;
+}
+
+/* Gallery picture gets a blue frame when the mouse is over it */
+.gallery img:hover {
+    border: 2px solid #1e3a8a;
+}
+
+/* Footer at the bottom */
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

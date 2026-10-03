@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- This tells the browser that this is an HTML5 page -->
+<html lang="en">
+
+<!-- HEAD: information about the page (not shown on the page itself) -->
+<head>
+    <meta charset="UTF-8">
+    <title>Tech News</title>
+    <!-- Link to the CSS file that adds colours and style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- BODY: everything the visitor can see -->
+<body>
+
+    <!-- H1: the main title of the page -->
+    <h1>Tech News</h1>
+
+    <!-- A DIV is a box. Here it holds the short intro text -->
+    <div class="intro">
+        <p>Welcome! Here are three recent stories from the world of technology.</p>
+    </div>
+
+    <!-- OL: a numbered list of the stories on this page -->
+    <ol>
+        <!-- HREF: the "#" links jump down to each article on the same page -->
+        <li><a href="#news1">Apple Vision Pro goes on sale</a></li>
+        <li><a href="#news2">EU AI Act comes into force</a></li>
+        <li><a href="#news3">Windows 10 support ends</a></li>
+    </ol>
+
+    <!-- ARTICLE 1: one news story -->
+    <article id="news1">
+        <h2>Apple Vision Pro goes on sale</h2>
+        <!-- FIGURE: holds an image and its caption together -->
+        <figure>
+            <!-- IMG: shows a picture. SRC = where the file is, ALT = text description -->
+            <img src="images/vr.png" alt="Blue picture with the words VR Headset">
+            <figcaption>Image: own work</figcaption>
+        </figure>
+        <p>In February 2024 Apple started selling the Vision Pro, its first mixed reality headset, in the United States.</p>
+        <!-- HREF: link to the original source of the news -->
+        <p>Source: <a href="https://www.apple.com/newsroom/">Apple Newsroom</a></p>
+    </article>
+
+    <!-- ARTICLE 2 -->
+    <article id="news2">
+        <h2>EU AI Act comes into force</h2>
+        <figure>
+            <img src="images/ai.png" alt="Green picture with the words AI Law">
+            <figcaption>Image: own work</figcaption>
+        </figure>
+        <p>On 1 August 2024 the European Union's AI Act came into force. It is the first big law that sets rules for artificial intelligence.</p>
+        <p>Source: <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">European Commission</a></p>
+    </article>
+
+    <!-- ARTICLE 3 -->
+    <article id="news3">
+        <h2>Windows 10 support ends</h2>
+        <figure>
+            <img src="images/windows.png" alt="Brown picture with the word Windows">
+            <figcaption>Image: own work</figcaption>
+        </figure>
+        <p>Microsoft stopped free security updates for Windows 10 on 14 October 2025. Users are advised to move to Windows 11.</p>
+        <p>Source: <a href="https://www.microsoft.com/en-us/windows/end-of-support">Microsoft</a></p>
+    </article>
+
+    <!-- GALLERY: a box of small pictures, styled in style.css -->
+    <h2>Image Gallery</h2>
+    <div class="gallery">
+        <img src="images/chip.png" alt="Purple picture with the word Chip">
+        <img src="images/code.png" alt="Dark picture with the word Code">
+        <img src="images/cloud.png" alt="Light blue picture with the word Cloud">
+        <img src="images/robot.png" alt="Pink picture with the word Robot">
+        <img src="images/phone.png" alt="Green picture with the word Phone">
+    </div>
+
+    <!-- FOOTER: the bottom of the page -->
+    <footer>
+        <p>Tech News - Web Development Practical 1 - Igor Smorodinsky</p>
+    </footer>
+
+</body>
+</html>
