@@ -1,0 +1,5 @@
+body { background-color: #f0f4f8; font-family: Arial, sans-serif; }
+.bg-brand { background-color: #1e3a8a; }
+.slide { height: 300px; object-fit: cover; }
+.post-img { width: 100%; max-height: 350px; object-fit: cover; }
+.avatar { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; }
